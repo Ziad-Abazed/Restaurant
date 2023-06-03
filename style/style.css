@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 7px;
+    justify-content: start;
+    
+  }
+  
+   
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  main{
+    width: 70%;
+    margin: auto;
+   
+    text-align: center;
+  }
+  /* Form Styles */
+  form {
+    border: 1px #333 ;
+    margin-bottom: 2rem;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+   margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select,
+  form button{
+    display: block;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 10px;
+    padding: 0.5rem;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    margin-top: 5px;
+    font-size: xx-large;
+    padding: 3px;
+    color: bisque;
+
+  }
+  
+  .social-links img {
+    width: 24px;
+    height: 24px;
+  }
+  
